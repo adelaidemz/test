@@ -1,6 +1,6 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-const response = await fetch("../data/dummydata.json");
+const response = await fetch("data/dummydata.json");
 const data = await response.json();
 // console.log(data);
 
